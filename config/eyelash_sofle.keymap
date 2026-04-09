@@ -55,21 +55,21 @@
         compatible = "zmk,behavior-tap-dance";
         label = "RIGHTBRACKETDBTAP";
         #binding-cells = <0>;
-        bindings = <&kp PERIOD>, <&kp RIGHT_BRACKET>;
+        bindings = <&kp PERIOD>, <&kp RIGHT_BRACKET>, <&ellipsis>;
     };
 
     minusDBtap: minusDBtap {
         compatible = "zmk,behavior-tap-dance";
         label = "MINUSDBTAP";
         #binding-cells = <0>;
-        bindings = <&kp BACKSLASH>, <&kp MINUS>;
+        bindings = <&kp SINGLE_QUOTE>, <&kp MINUS>;
     };
 
     plusDBtap: plusDBtap {
         compatible = "zmk,behavior-tap-dance";
         label = "PLUSDBTAP";
         #binding-cells = <0>;
-        bindings = <&kp SINGLE_QUOTE>, <&kp EQUAL>;
+        bindings = <&kp BACKSLASH>, <&kp EQUAL>;
     };
 
     behaviors {
@@ -98,6 +98,13 @@
                 <&kp LEFT_SHIFT &mkp MB3>;
 
             label = "SHIFT_MCLK";
+        };
+
+        ellipsis: ellipsis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PERIOD &kp DOT &kp DOT>;
+            label = "ELLIPSIS";
         };
     };
 

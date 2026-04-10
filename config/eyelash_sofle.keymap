@@ -50,7 +50,7 @@
         #binding-cells = <0>;
         bindings = <&kp COMMA>, <&kp LEFT_BRACKET>;
 
-        tapping-term-ms = <150>;
+        tapping-term-ms = <175>;
     };
 
     rightbracketDBtap: rightbracketDBtap {
@@ -59,7 +59,7 @@
         #binding-cells = <0>;
         bindings = <&kp PERIOD>, <&kp RIGHT_BRACKET>, <&ellipsis>;
 
-        tapping-term-ms = <150>;
+        tapping-term-ms = <175>;
     };
 
     minusDBtap: minusDBtap {
@@ -68,7 +68,7 @@
         #binding-cells = <0>;
         bindings = <&kp SINGLE_QUOTE>, <&kp MINUS>;
 
-        tapping-term-ms = <150>;
+        tapping-term-ms = <175>;
     };
 
     plusDBtap: plusDBtap {
@@ -77,7 +77,7 @@
         #binding-cells = <0>;
         bindings = <&kp BACKSLASH>, <&kp EQUAL>;
 
-        tapping-term-ms = <150>;
+        tapping-term-ms = <175>;
     };
 
     behaviors {

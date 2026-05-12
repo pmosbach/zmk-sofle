@@ -56,14 +56,14 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - '&menuTRtap'
-  - $$mdi:apple-keyboard-option$$
   - Layer 1
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - CONTEXT MENU
-  - Layer 2
   - $$mdi:apple-keyboard-shift$$
+  - Layer 2
+  - APP
   - $$mdi:backspace-reverse-outline$$
   Layer 1:
   - {t: '`', s: '~'}
@@ -121,8 +121,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
